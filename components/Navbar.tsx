@@ -91,7 +91,7 @@ const Nav: React.FC = () => {
           </Menu>
         </Navbar.Center>
         <Navbar.End className="hidden lg:flex">
-          <ConnectWallet className="bg-yellow-600 text-white h-12" />
+          <ConnectWallet className="bg-amber-500 text-white h-12" />
         </Navbar.End>
       </Navbar>
     </div>

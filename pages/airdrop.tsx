@@ -69,7 +69,7 @@ const Airdrop: React.FC = () => {
                 amount: 100,
               })
             }
-            className="w-3/4 mx-auto bg-yellow-600"
+            className="w-3/4 mx-auto bg-amber-500"
           >
             CLAIM
           </Web3Button>
