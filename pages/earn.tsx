@@ -1,9 +1,9 @@
 import Layout from "@/components/Layout";
 
-export default function Home() {
+export default function Earn() {
   return (
     <Layout>
-      <p className="text-base-content">Home</p>
+      <p className="text-base-content">EARN</p>
     </Layout>
   );
 }
