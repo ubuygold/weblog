@@ -104,12 +104,14 @@ export default function Earn() {
                       <Web3Button
                         contractAddress={contractAddress}
                         className="bg-amber-500 text-primary-content w-1/2"
+                        action={() => { }}
                       >
                         Stake
                       </Web3Button>
                       <Web3Button
                         contractAddress={contractAddress}
                         className="bg-amber-500 text-primary-content w-1/2"
+                        action={() => { }}
                       >
                         Claim & Unstake
                       </Web3Button>
