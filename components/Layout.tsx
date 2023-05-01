@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 const Layout: React.FC<React.PropsWithChildren> = (props) => {
   return (
     <main
-      className={`flex bg-base-100 flex-col items-center justify-between p-10 pt-32 ${inter.className}`}
+      className={`flex bg-base-100 flex-col text-base-content items-center justify-between p-10 pt-32 ${inter.className}`}
     >
       <Nav />
       {props.children}

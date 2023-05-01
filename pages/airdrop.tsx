@@ -59,7 +59,7 @@ const Airdrop: React.FC = () => {
           </div>
           <div className="form-control w-3/4 mx-auto">
             <label className="label">You can claim:</label>
-            <Input placeholder="0" disabled={true} />
+            <Input placeholder="100" disabled={true} />
           </div>
           <Web3Button
             contractAddress={contractAddress}
